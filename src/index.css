@@ -8,13 +8,19 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Outfit';
-    font-size: 16px;
+    font-size: 18px;
     text-decoration: none;
     list-style: none;
 }
 
 :root{
     --body: #FFFFFF;
+    --header: snow;
+
+    --kamas-1: #641534;
+    --kamas-2: #A5204F;
+
+    --white: #FFFFFF;
 
     --text: #666666;
 }

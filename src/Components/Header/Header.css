@@ -1,0 +1,42 @@
+header{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background: var(--header);
+    z-index: 100;
+}
+
+.header-top-container{
+    width: 100%;
+    padding: 0 20px;
+    height: 40px;
+    background: var(--kamas-1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-top{
+    margin: auto;
+    width: 100%;
+    max-width: 1600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--white);
+    font-size: 14px;
+}
+
+.header-bottom-container{
+    width: 100%;
+    padding: 0 20px;
+}
+
+.header-bottom{
+    margin: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
