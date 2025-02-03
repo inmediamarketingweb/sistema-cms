@@ -1,5 +1,9 @@
 {
     "CellphoneOne": "+51 998877665",
     "CellphoneTwo": "+51 999888777",
-    "CellphoneThree": "+51 988777666"
+    "CellphoneThree": "+51 988777666",
+
+    "HeaderTopLink": "https://leosoplapuco.com",
+    "HeaderTopTitle": "Ver promoción",
+    "HeaderTopText": "¡ Solo por hoy 50% de descuento en productos seleccionados 🔥 !"
 }
