@@ -24,13 +24,29 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 10px;
     color: var(--white);
     font-size: 14px;
 }
 
+.header-top p,
+.header-top a{
+    color: var(--white);
+    font-size: 15px;
+}
+
+.header-top a{
+    text-decoration: underline;
+}
+
+.header-top::selection{
+    background: var(--white);
+    color: var(--kamas-2);
+}
+
 .header-bottom-container{
     width: 100%;
-    padding: 0 20px;
+    padding: 10px 20px;
 }
 
 .header-bottom{
@@ -39,4 +55,13 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.header-bottom-logo{
+    display: flex;
+}
+
+.header-bottom-logo img{
+    width: 100%;
+    height: 50px;
 }
