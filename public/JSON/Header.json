@@ -1,0 +1,39 @@
+{
+    "PrincipalMenu":[
+        {
+            "id": 1,
+            "href": "/productos/colchones/",
+            "text": "Colchones"
+        },
+        {
+            "id": 2,
+            "href": "/productos/cama-box-tarimas/",
+            "text": "Cama box tarimas"
+        },
+        {
+            "id": 3,
+            "href": "/productos/dormitorios/",
+            "text": "Dormitorios"
+        },
+        {
+            "id": 4,
+            "href": "/productos/camas-funcionales/",
+            "text": "Camas funcionales"
+        },
+        {
+            "id": 5,
+            "href": "/productos/cabeceras/",
+            "text": "Cabeceras"
+        },
+        {
+            "id": 6,
+            "href": "/productos/sofas/",
+            "text": "Sofas"
+        },
+        {
+            "id": 7,
+            "href": "/productos/complementos/",
+            "text": "Complementos"
+        }
+    ]
+}
