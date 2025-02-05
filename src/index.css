@@ -8,14 +8,15 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Outfit';
-    font-size: 18px;
+    font-weight: 400;
+    font-size: clamp( 14px, 17px, 24px );
     text-decoration: none;
     list-style: none;
 }
 
 :root{
-    --body: #FFFFFF;
-    --header: snow;
+    --body: #F0F0F0;
+    --header: #FFFFFF;
 
     --kamas-1: #641534;
     --kamas-2: #A5204F;
@@ -23,8 +24,69 @@
     --white: #FFFFFF;
 
     --text: #666666;
+
+    --t-100ms: all 100ms linear;
+    --t-200ms: all 200ms linear;
+    --t-300ms: all 300ms linear;
 }
+
+/**/
+
+.material-symbols-outlined{
+    font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}
+
+/**/
 
 body{
     background: var(--body);
+}
+
+/**/
+
+a{
+    cursor: pointer;
+}
+
+/**/
+
+button{
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    border-radius: 8px;
+    background: transparent;
+}
+
+/**/
+
+.button-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.button-link p,
+.button-link span{
+    color: var(--text);
+}
+
+.button-link-2:hover p,
+.button-link-2:hover span{
+    color: var(--kamas-1);
+}
+
+/**/
+
+.margin-auto{
+    margin: auto;
+}
+
+.margin-left{
+    margin-left: auto;
+}
+
+.margin-right{
+    margin-right: auto;
 }
