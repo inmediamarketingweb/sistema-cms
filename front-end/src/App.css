@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --header: #FFFFFF;
+    --body: #FFFFFF;
+    --footer: #000000;
+}
+
+body{
+    background: var(--body);
+}
+
+/**/
+
+.d-flex-center-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.d-flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+/**/
+
+.gap-10{
+    gap: 10px;
+}
+
+.gap-20{
+    gap: 20px;
+}

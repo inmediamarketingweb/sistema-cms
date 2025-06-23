@@ -1,0 +1,44 @@
+.csm-login-page-main{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background: #005889;
+}
+
+.cms-login-page-container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.cms-login-page-container > div{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.cms-login-page-container > div:nth-child(1) img{
+    margin: auto;
+    width: 50%;
+    height: auto;
+    aspect-ratio: 1/1;
+}
+
+.cms-login-page-container > div:nth-child(2){
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background: var(--body);
+}
+
+@media screen and (max-width: 600px){
+    .cms-login-page-container{
+        grid-template-columns: 1fr;
+    }
+
+    .cms-login-page-container > div:nth-child(1){
+        display: none;
+    }
+}
