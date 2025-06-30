@@ -2,7 +2,7 @@
     display: flex;
     width: 100vw;
     height: 100vh;
-    background: #005889;
+    background: var(--color-1);
 }
 
 .cms-login-page-container{
@@ -15,6 +15,18 @@
     width: 100%;
     height: 100%;
     display: flex;
+}
+
+.cms-login-page-container > div:nth-child(1){
+    position: relative;
+}
+
+.cms-login-page-container > div:nth-child(1) a{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    color: var(--white);
+    z-index: 1;
 }
 
 .cms-login-page-container > div:nth-child(1) img{
@@ -33,6 +45,46 @@
     background: var(--body);
 }
 
+.cms-login-page-container > div:nth-child(2) div{
+    width: auto;
+    display: flex;
+    padding: 20px;
+    background: rgba(0 0 0 / 0.025);
+    border: 1px solid rgba(0 0 0 / 0.5);
+    border-radius: 5px;
+}
+
+.cms-login-page-container > div:nth-child(2) div h1{
+    font-size: 32px;
+}
+
+/**/
+
+.cms-login-page-form{
+    /* width: 100%; */
+    /* max-width: 400px; */
+    width: 360px;
+    max-width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.cms-login-page-form fieldset{
+    width: 100%;
+}
+
+.cms-login-page-form fieldset input{
+    width: 100%;
+    height: 48px;
+    padding: 0 16px;
+    border: 2px solid var(--color-1);
+    border-radius: 6px;
+    background: var(--white);
+}
+
+/**/
+
 @media screen and (max-width: 600px){
     .cms-login-page-container{
         grid-template-columns: 1fr;
@@ -40,5 +92,13 @@
 
     .cms-login-page-container > div:nth-child(1){
         display: none;
+    }
+
+    .cms-login-page-form{
+        width: 100%;
+    }
+
+    .cms-login-page-container > div:nth-child(2) div{
+        width: 100%;
     }
 }

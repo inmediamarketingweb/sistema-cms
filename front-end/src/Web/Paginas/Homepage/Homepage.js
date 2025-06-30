@@ -3,9 +3,11 @@ import './Homepage.css';
 function Homepage(){
     return(
         <main>
-            <p>pagina principal</p>
+            <p>Sección del sitio web actual</p>
 
             <a href='/cms/'>ir a cms</a>
+            <br/>
+            <a href='/cms/dashboard/'>dashboard</a>
         </main>
     )
 }
